@@ -15,8 +15,8 @@ const links: ILinks[] = [
 </script>
 
 <template>
-  <footer class="bg-black">
-    <section class="mx-auto max-w-7xl px-2 sm:px-4 lg:py-6 text-gray-300 flex flex-row items-center">
+  <footer class="bg-black py-2">
+    <section class="mx-auto max-w-7xl px-2 sm:px-4 lg:py-6 text-gray-300 gap-2 flex flex-col md:flex-row items-center">
       <p class="flex-1">&copy; Caio Alves 2023. All Rights Reserved</p>
       <div class="flex flex-row justify-center gap-4 mb-4 mt-2">
         <a v-for="link in links" :key="link.name" :href="link.href">
