@@ -33,7 +33,7 @@ console.log(error)
 <template>
   <h1 class="text-3xl my-8">Projetos</h1>
   <p class="text-lg mb-8">Aqui estão alguns dos meus projetos no GitHub.</p>
-  <section class="grid grid-cols-2 gap-10">
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-10">
     <div v-for="project in data?.viewer.repositories.nodes" :key="project.id"
       class="p-8 border-4 my-4 rounded-lg hover:bg-gray-50">
       <a :href="project.url" target="_blank">
