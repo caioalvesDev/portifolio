@@ -1,5 +1,5 @@
 ---
-title: Announcing Vue 3.3
+title: 
 description: This release is focused on developer experience improvements and bug fixes.
 date: 2023-05-24
 cover: karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg
@@ -7,21 +7,22 @@ tags:
   - vue
 ---
 
-# Announcing Vue 3.3
+# Anunciando o Vue 3.3
 
-Today we're excited to announce the release of Vue 3.3 "Rurouni Kenshin"!
+Hoje temos o prazer de anunciar o lançamento do Vue 3.3 "Rurouni Kenshin"!
 
-This release is focused on developer experience improvements - in particular, SFC <script setup> usage with TypeScript. Together with the 1.6 release of Vue Language Tools (previously known as Volar), we have resolved many long-standing pain points when using Vue with TypeScript.
+Esta versão se concentra em melhorias na experiência do desenvolvedor – em particular, no uso de SFC `<script setup>` com TypeScript. Juntamente com a versão 1.6 do Vue Language Tools (anteriormente conhecido como Volar), resolvemos muitos problemas de longa data ao usar Vue com TypeScript.
 
 This post provides an overview of the highlighted features in 3.3. For the full list of changes, please consult the full changelog on GitHub.
 
-## `<script setup>` + TypeScript DX Improvements
+## `<script setup>` + Melhorias no TypeScript DX
 
-### Imported and Complex Types Support in Macros
+### Suporte a tipos importados e complexos em macros
 
-Previously, types used in the type parameter position of defineProps and defineEmits were limited to local types, and only supported type literals and interfaces. This is because Vue needs to be able to analyze the properties on the props interface in order to generate corresponding runtime options.
+Anteriormente, os tipos usados ​​na posição do parâmetro de tipo de defineProps e defineEmits eram limitados a tipos locais e suportavam apenas literais de tipo e interfaces. Isso ocorre porque o Vue precisa ser capaz de analisar as propriedades na interface props para gerar opções de tempo de execução correspondentes.
 
-This limitation is now resolved in 3.3. The compiler can now resolve imported types, and supports a limited set of complex types:
+Esta limitação agora foi resolvida em 3.3. O compilador agora pode resolver tipos importados e oferece suporte a um conjunto limitado de tipos complexos:
+
 
 ```vue
 <script setup lang="ts">
@@ -32,4 +33,4 @@ defineProps<Props & { extraProp?: string }>();
 </script>
 ```
 
-Do note that complex types support is AST-based and therefore not 100% comprehensive. Some complex types that require actual type analysis, e.g. conditional types, are not supported. You can use conditional types for the type of a single prop, but not the entire props object.
+Observe que o suporte a tipos complexos é baseado em AST e, portanto, não é 100% abrangente. Alguns tipos complexos que requerem análise de tipo real, por ex. tipos condicionais, não são suportados. Você pode usar tipos condicionais para o tipo de um único adereço, mas não para o objeto adereços inteiro.
