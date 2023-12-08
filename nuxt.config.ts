@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/content", "@nuxtjs/apollo"],
   content: {
     highlight: {
-      theme: "nord",
+      theme: "github-light",
       preload: ["ts", "js", "css", "java", "json", "bash", "vue", "php", "dart"],
     },
   },

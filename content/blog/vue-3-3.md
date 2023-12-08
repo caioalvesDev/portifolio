@@ -1,8 +1,8 @@
 ---
-title: 
-description: This release is focused on developer experience improvements and bug fixes.
+title: Anunciando o Vue 3.3
+description: Esta versão se concentra em melhorias na experiência do desenvolvedor e correções de bugs.
 date: 2023-05-24
-cover: karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg
+cover: vue3_3.png
 tags:
   - vue
 ---
@@ -10,6 +10,8 @@ tags:
 # Anunciando o Vue 3.3
 
 Hoje temos o prazer de anunciar o lançamento do Vue 3.3 "Rurouni Kenshin"!
+
+![Earth from Space](/images/blog/vue3_3.png){.rounded-lg}
 
 Esta versão se concentra em melhorias na experiência do desenvolvedor – em particular, no uso de SFC `<script setup>` com TypeScript. Juntamente com a versão 1.6 do Vue Language Tools (anteriormente conhecido como Volar), resolvemos muitos problemas de longa data ao usar Vue com TypeScript.
 

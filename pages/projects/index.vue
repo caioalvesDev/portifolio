@@ -31,8 +31,8 @@ console.log(error)
 </script>
 
 <template>
-  <h1 class="text-3xl my-8">Projects</h1>
-  <p class="text-lg mb-8">Here are some of my projects on GitHub.</p>
+  <h1 class="text-3xl my-8">Projetos</h1>
+  <p class="text-lg mb-8">Aqui estão alguns dos meus projetos no GitHub.</p>
   <section class="grid grid-cols-2 gap-10">
     <div v-for="project in data?.viewer.repositories.nodes" :key="project.id"
       class="p-8 border-4 my-4 rounded-lg hover:bg-gray-50">

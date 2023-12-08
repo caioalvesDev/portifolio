@@ -1,8 +1,8 @@
 ---
 title: Introdução ao Nuxt 3
-description: This is a quick introduction on how to get started with Nuxt 3.
+description: Esta é uma introdução rápida sobre como começar a usar o Nuxt 3.
 date: 2023-05-24
-cover: clement-helardot-95YRwf6CNw8-unsplash.jpg
+cover: Work-NuxtJS.png
 tags:
   - nuxt
   - vue
@@ -10,7 +10,9 @@ tags:
 
 # Introdução ao Nuxt 3
 
-This is a quick introduction on how to get started with Nuxt 3. To get started you need to have Node.js installed on your machine. You can download it from [here](https://nodejs.org/en/download/). Once you have Node.js installed, you can install Nuxt 3 using the following command:
+![Earth from Space](/images/blog/Work-NuxtJS.png){.rounded-lg}
+
+Esta é uma introdução rápida sobre como começar a usar o Nuxt 3. Para começar, você precisa ter o Node.js instalado em sua máquina. Você pode baixá-lo em [aqui](https://nodejs.org/en/download/). Depois de instalar o Node.js, você pode instalar o Nuxt 3 usando o seguinte comando:
 
 ```bash
 npx nuxi init <project-name>
@@ -18,7 +20,7 @@ cd <project-name>
 npm i
 ```
 
-Next you can begin to build out your application by using `app.vue`.
+Em seguida, você pode começar a construir seu aplicativo usando `app.vue`.
 
 ```vue
 <script setup></script>
