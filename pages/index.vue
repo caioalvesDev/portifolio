@@ -15,7 +15,7 @@ const { data: posts } = await useAsyncData("latest-posts", () => queryContent("/
         vida se se dedicar, arregaçar as mangas e estiver disposto a trabalhar.
       </p>
       <p class="text-lg py-2">
-        Tenho desenvolvendo software há mais de 5 anos e uso meu conhecimento, paixão e influência para ajudar outros desenvolvedores a
+        Venho desenvolvendo software há mais de 5 anos e uso meu conhecimento, paixão e influência para ajudar outros desenvolvedores a
         alcançar seus objetivos.
       </p>
       <p class="text-lg py-2">
