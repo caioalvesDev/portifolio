@@ -4,19 +4,25 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/content", "@nuxtjs/apollo"],
   content: {
     highlight: {
-      theme: "dracula",
+      theme: {
+        default: "github-light",
+
+        dark: "github-dark",
+
+        sepia: "monokai",
+      },
       preload: ["ts", "js", "css", "java", "json", "bash", "vue", "php", "dart"],
     },
   },
   runtimeConfig: {
-    githubToken: process.env.GITHUB_TOKEN
+    githubToken: process.env.GITHUB_TOKEN,
   },
   apollo: {
     clients: {
       default: {
-        tokenName: 'github-token',
-        httpEndpoint: 'https://api.github.com/graphql'
-      }
-    }
-  }
+        tokenName: "github-token",
+        httpEndpoint: "https://api.github.com/graphql",
+      },
+    },
+  },
 });
