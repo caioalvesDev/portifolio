@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 
         sepia: "monokai",
       },
-      preload: ["ts", "js", "css", "java", "json", "bash", "vue", "php", "dart"],
+      preload: ["ts", "js", "css", "java", "json", "bash", "vue", "php", "dart", "html", "css"],
     },
   },
   runtimeConfig: {
