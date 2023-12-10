@@ -1,5 +1,5 @@
 <script setup>
-const { data: posts } = await useAsyncData("latest-posts", () => queryContent("/blog").sort({ date: 1 }).limit(3).find());
+const { data: posts } = await useAsyncData("latest-posts", () => queryContent("/blog").sort({ date: -1 }).limit(3).find());
 useHead({
   title: "Home | Caio Alves Dev",
 })

@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         dark: "github-dark",
         sepia: "monokai",
       },
-      preload: ["ts", "js", "css", "java", "json", "bash", "vue", "php", "dart", "html", "css"],
+      preload: ["ts", "js", "css", "java", "json", "bash", "vue", "php", "dart", "html", "css", "tsx", "jsx"],
     },
   },
   runtimeConfig: {
