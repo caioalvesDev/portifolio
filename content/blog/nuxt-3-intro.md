@@ -3,14 +3,18 @@ title: Introdução ao Nuxt 3
 description: Esta é uma introdução rápida sobre como começar a usar o Nuxt 3.
 date: 2023-05-24
 cover: Work-NuxtJS.png
+icon: "mdi:calendar-blank"
 tags:
-  - nuxt
-  - vue
+  - Nuxt
+  - Vue
+  - Javascript
 ---
 
 # Introdução ao Nuxt 3
 
-![Earth from Space](/images/blog/Work-NuxtJS.png){.rounded-lg}
+::PostDate{ :icon='icon' :date='date'}
+::
+![Earth from Space](/images/blog/Work-NuxtJS.png){.rounded-lg.w-full}
 
 Esta é uma introdução rápida sobre como começar a usar o Nuxt 3. Para começar, você precisa ter o Node.js instalado em sua máquina. Você pode baixá-lo em [aqui](https://nodejs.org/en/download/). Depois de instalar o Node.js, você pode instalar o Nuxt 3 usando o seguinte comando:
 

@@ -2,18 +2,21 @@
 title: Usando o Canvas para criar gráficos em JavaScript
 description: O artigo apresenta como usar a API Canvas em HTML e JavaScript para criar gráficos personalizados com estilização e interatividade, resultando em visualizações de dados impressionantes e envolventes.
 date: 2023-12-08
-cover: 0_FXxXHe5eVfn1T4Rf.png
+cover: javascript.png
+icon: "mdi:calendar-blank"
 tags:
-  - javascript
-  - html
-  - css
+  - Javascript
+  - Html
+  - Css
 ---
 
 # Usando o Canvas para criar gráficos em JavaScript
 
 [O artigo apresenta como usar a API Canvas em HTML e JavaScript para criar gráficos personalizados com estilização e interatividade, resultando em visualizações de dados impressionantes e envolventes.]{.font-medium.text-xl}
 
-![Earth from Space](/images/blog/0_FXxXHe5eVfn1T4Rf.png){.rounded-lg}
+::PostDate{ :icon='icon' :date='date'}
+::
+![Earth from Space](/images/blog/javascript.png){.rounded-lg}
 
 [O Canvas é uma API de desenho bidimensional em HTML que permite criar gráficos e gráficos interativos diretamente no navegador.]{.font-medium.text-lg}
 
@@ -26,7 +29,6 @@ tags:
 [Antes de começar a desenhar, precisamos configurar o Canvas em nosso HTML.]{.font-medium.text-lg}
 
 [Primeiro, precisamos criar um elemento canvas em nossa página:]{.font-medium.text-lg}
-
 
 ```html
 <canvas id="grafico"></canvas>
@@ -58,11 +60,9 @@ ctx.stroke();
 
 [Este código começa um novo caminho de desenho com **beginPath()**, move o ponto inicial para a posição **(0, 0)** com **moveTo()**, desenha uma linha até a posição **(100, 100)** com **lineTo()**, e, finalmente, desenha a linha com **stroke()**.]{.font-medium.text-lg}
 
-
 [Agora que sabemos como desenhar linhas, podemos começar a criar gráficos mais complexos.]{.font-medium.text-lg}
 
 [Por exemplo, podemos criar um gráfico de barras simples com o seguinte código:]{.font-medium.text-lg}
-
 
 ```js
 const data = [10, 20, 30, 40, 50];
@@ -75,7 +75,7 @@ for (let i = 0; i < data.length; i++) {
   const barHeight = data[i];
   const x = startX + i * (barWidth + barSpacing);
   const y = startY - barHeight;
-  
+
   ctx.fillRect(x, y, barWidth, barHeight);
 }
 ```
@@ -100,7 +100,6 @@ for (let i = 0; i < data.length; i++) {
 
 [Por exemplo, podemos alterar a cor de preenchimento para azul e a largura da linha para 2 pixels com o seguinte código:]{.font-medium.text-lg}
 
-
 ```js
 ctx.fillStyle = "blue";
 ctx.lineWidth = 2;
@@ -120,20 +119,18 @@ ctx.font = "12px Arial";
 
 [Por exemplo, podemos adicionar um evento de clique a cada barra no gráfico de barras para exibir o valor correspondente]{.font-medium.text-lg}
 
-
 ```js
-canvas.addEventListener("click", function(event) {
+canvas.addEventListener("click", function (event) {
   const rect = canvas.getBoundingClientRect();
   const mouseX = event.clientX - rect.left;
   const mouseY = event.clientY - rect.top;
-  
+
   for (let i = 0; i < data.length; i++) {
     const barHeight = data[i];
     const x = startX + i * (barWidth + barSpacing);
     const y = startY - barHeight;
-    
-    if (mouseX >= x && mouseX <= x + barWidth &&
-        mouseY >= y && mouseY <= startY) {
+
+    if (mouseX >= x && mouseX <= x + barWidth && mouseY >= y && mouseY <= startY) {
       alert(`Valor da barra ${i}: ${barHeight}`);
       break;
     }
@@ -146,8 +143,6 @@ canvas.addEventListener("click", function(event) {
 [Se estiver, exibimos um alerta com o valor correspondente da barra.]{.font-medium.text-lg}
 
 [Também vamos adicionar um evento de clique para a janela modal, para que ela seja fechada quando clicada:]{.font-medium.text-lg}
-
-
 
 # Conclusão
 

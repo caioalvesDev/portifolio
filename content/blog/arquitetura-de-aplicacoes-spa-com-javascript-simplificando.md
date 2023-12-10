@@ -3,16 +3,18 @@ title: Arquitetura de Aplicações SPA com JavaScript Simplificando a Complexida
 description: Explore a construção eficiente de SPAs com JavaScript e aprimore a UX e o gerenciamento de estado em suas aplicações web.
 date: 2023-12-08
 cover: spa.png
+icon: "mdi:calendar-blank"
 tags:
-  - blog
-  - javascript
+  - Javascript
 ---
 
 # Arquitetura de Aplicações SPA com JavaScript: Simplificando a Complexidade
 
 [Explore a construção eficiente de SPAs com JavaScript e aprimore a UX e o gerenciamento de estado em suas aplicações web.]{.font-medium.text-xl}
 
-![Earth from Space](/images/blog/spa.png){.rounded-lg}
+::PostDate{ :icon='icon' :date='date'}
+::
+![Earth from Space](/images/blog/spa.png){.rounded-lg.w-full}
 
 [E aí, devs! Prontos para mergulhar no mundo das Single Page Applications (SPA)?]{.font-medium.text-lg}
 

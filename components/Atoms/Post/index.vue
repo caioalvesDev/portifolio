@@ -6,7 +6,7 @@ const props = defineProps(["posts"]);
   <div
     v-for="post in props.posts"
     :key="post.slug"
-    class="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 duration-300 ease-in-out hover:opacity-75 my-6"
+    class="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 duration-300 ease-in-out hover:opacity-75 hover:shadow-2xl my-6"
   >
     <NuxtLink :to="post._path">
       <img :src="`/images/blog/${post.cover}`" alt="Blog Post Cover Image" class="w-full h-48 object-cover" />

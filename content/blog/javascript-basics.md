@@ -2,15 +2,16 @@
 title: Básico de Javascript!
 description: Te ensinarei o básico de javascript
 date: 2023-12-08
-cover: 0_FXxXHe5eVfn1T4Rf.png
+cover: javascript.png
+icon: "mdi:calendar-blank"
 tags:
-  - blog
-  - javascript
-  - básico
+  - Javascript
 ---
 
-# Javascript 
+# Javascript
 
-![Earth from Space](/images/blog/0_FXxXHe5eVfn1T4Rf.png){.rounded-lg}
+::PostDate{ :icon='icon' :date='date'}
+::
+![Earth from Space](/images/blog/javascript.png){.rounded-lg}
 
 # Em construção...

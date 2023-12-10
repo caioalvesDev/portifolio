@@ -2,17 +2,19 @@
 title: Explorando as Novidades do JavaScript ES6+ Recursos Modernos para Desenvolvedores
 description: Descubra as novidades do JavaScript ES6+ arrow functions, classes, desestruturação e módulos. Melhore seu código e fluxo de trabalho!
 date: 2023-12-08
-cover: 0_FXxXHe5eVfn1T4Rf.png
+cover: javascript.png
+icon: "mdi:calendar-blank"
 tags:
-  - blog
-  - javascript
+  - Javascript
 ---
 
 # Explorando as Novidades do JavaScript ES6+: Recursos Modernos para Desenvolvedores
 
 [Descubra as novidades do JavaScript ES6+ arrow functions, classes, desestruturação e módulos. Melhore seu código e fluxo de trabalho!]{.font-medium.text-xl}
 
-![Earth from Space](/images/blog/0_FXxXHe5eVfn1T4Rf.png){.rounded-lg}
+::PostDate{ :icon='icon' :date='date'}
+::
+![Earth from Space](/images/blog/javascript.png){.rounded-lg}
 
 [O JavaScript é uma das linguagens de programação mais populares e amplamente utilizadas no desenvolvimento web.]{.font-medium.text-lg}
 
@@ -49,17 +51,17 @@ class Animal {
   }
 
   emitirSom() {
-    console.log('Fazendo som...');
+    console.log("Fazendo som...");
   }
 }
 
 class Cachorro extends Animal {
   emitirSom() {
-    console.log('Au au!');
+    console.log("Au au!");
   }
 }
 
-const rex = new Cachorro('Rex');
+const rex = new Cachorro("Rex");
 rex.emitirSom(); // Output: Au au!
 ```
 
@@ -72,7 +74,7 @@ rex.emitirSom(); // Output: Au au!
 [Exemplo:]{.font-medium.text-lg}
 
 ```js
-const frutas = ['maçã', 'banana', 'laranja'];
+const frutas = ["maçã", "banana", "laranja"];
 const [primeiraFruta, segundaFruta] = frutas;
 console.log(primeiraFruta, segundaFruta); // Output: maçã banana
 ```
@@ -92,7 +94,7 @@ export function dobrarNumero(numero) {
 }
 
 // arquivo 'app.js'
-import { dobrarNumero } from './utils.js';
+import { dobrarNumero } from "./utils.js";
 console.log(dobrarNumero(5)); // Output: 10
 ```
 

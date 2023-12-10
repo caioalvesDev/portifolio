@@ -2,19 +2,21 @@
 title: Integração de Node.js com outras tecnologias
 description: Este artigo fornece uma visão geral das tecnologias que podem ser integradas com Node.js, incluindo bancos de dados, front-end frameworks e ferramentas de automação de tarefas, com exemplos práticos e vantagens dessa integração.
 date: 2023-05-23
-cover: 1_mp91A9RzagntGGjBnwu4Yw.png
+cover: node.png
+icon: "mdi:calendar-blank"
 tags:
-  - blog
-  - node
-  - javascript
-  - backend
+  - Node
+  - Javascript
+  - Backend
 ---
 
 # Integração de Node.js com outras tecnologias
 
 [Este artigo fornece uma visão geral das tecnologias que podem ser integradas com Node.js, incluindo bancos de dados, front-end frameworks e ferramentas de automação de tarefas, com exemplos práticos e vantagens dessa integração.]{.font-medium.text-xl}
 
-![Earth from Space](/images/blog/1_mp91A9RzagntGGjBnwu4Yw.png){.rounded-lg}
+::PostDate{ :icon='icon' :date='date'}
+::
+![Earth from Space](/images/blog/node.png){.rounded-lg.w-full}
 
 [Node.js é uma plataforma de software construída em cima do motor de JavaScript do Google Chrome, projetada para criar aplicativos de rede escaláveis e eficientes.]{.font-medium.text-lg}
 

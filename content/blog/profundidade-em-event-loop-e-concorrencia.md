@@ -2,18 +2,20 @@
 title: Profundidade em Event Loop e Concorrência
 description: Exploração detalhada do Event Loop e concorrência em JavaScript, revelando como a linguagem single-threaded gerencia tarefas múltiplas.
 date: 2023-12-08
-cover: 0_FXxXHe5eVfn1T4Rf.png
+cover: javascript.png
+icon: "mdi:calendar-blank"
 tags:
-  - blog
-  - javascript
-  - intermediário
+  - Javascript
+  - Intermediário
 ---
 
 # Profundidade em Event Loop e Concorrência
 
 [Exploração detalhada do Event Loop e concorrência em JavaScript, revelando como a linguagem single-threaded gerencia tarefas múltiplas.]{.font-medium.text-xl}
 
-![Earth from Space](/images/blog/0_FXxXHe5eVfn1T4Rf.png){.rounded-lg}
+::PostDate{ :icon='icon' :date='date'}
+::
+![Earth from Space](/images/blog/javascript.png){.rounded-lg}
 
 [Se você já se aventurou pelo universo do desenvolvimento em JavaScript, provavelmente já se deparou com a noção de que é uma linguagem "single-threaded".]{.font-medium.text-lg}
 

@@ -6,11 +6,11 @@ interface ILinks {
 }
 
 const links: ILinks[] = [
-  { name: "GitHub", href: "https://github.com", icon: "entypo-social:github-with-circle" },
-  { name: "Twitter", href: "https://twitter.com", icon: "entypo-social:twitter" },
-  { name: "Facebook", href: "https://facebook.com", icon: "entypo-social:facebook" },
-  { name: "LinkedIn", href: "https://www.linkedin.com", icon: "entypo-social:linkedin-with-circle" },
-  { name: "Instagram", href: "https://instagram.com", icon: "entypo-social:instagram" },
+  { name: "GitHub", href: "https://github.com/caioalvesDev", icon: "entypo-social:github-with-circle" },
+  // { name: "Twitter", href: "https://twitter.com", icon: "entypo-social:twitter" },
+  { name: "Facebook", href: "https://facebook.com/kaio.alves.336", icon: "entypo-social:facebook" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/caio-alves-dev/", icon: "entypo-social:linkedin-with-circle" },
+  // { name: "Instagram", href: "https://instagram.com", icon: "entypo-social:whatsapp-with-circle" },
 ];
 </script>
 
