@@ -3,10 +3,12 @@ import { SEO } from "./utils/constants";
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/content", "@nuxtjs/apollo"],
+
   app: {
     head: {
       charset: "utf-8",
       title: SEO.title,
+      meta: [{ name: "viewport", content: "width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" }],
     },
     pageTransition: { name: "page", mode: "out-in" },
   },
@@ -31,6 +33,15 @@ export default defineNuxtConfig({
       default: {
         tokenName: "github-token",
         httpEndpoint: "https://api.github.com/graphql",
+      },
+    },
+  },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => {
+        const customElements: RegExp[] = [/Script/g, /dotlottie-player/g];
+
+        return customElements.some((regex) => regex.test(tag));
       },
     },
   },

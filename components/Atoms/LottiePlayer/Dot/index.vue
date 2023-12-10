@@ -12,12 +12,14 @@ useScriptTag('https://unpkg.com/@dotlottie/player-component@latest/dist/dotlotti
 </script>
 
 <template>
-  <dotlottie-player
-    :src="src"
-    background="transparent"
-    speed="1"
-    direction="1"
-    mode="normal"
-    loop autoplay
-  />
+  <div>
+    <dotlottie-player
+      :src="src"
+      background="transparent"
+      speed="1"
+      direction="1"
+      mode="normal"
+      loop autoplay
+    />
+  </div>
 </template>

@@ -25,9 +25,10 @@ useIntersectionObserver(
 </script>
 
 <template>
-  <Vue3Lottie
-    ref="lottieRef"
-
-    v-bind="props"
-  />
+  <div>
+    <Vue3Lottie
+      ref="lottieRef"
+      v-bind="props"
+    />
+  </div>
 </template>
