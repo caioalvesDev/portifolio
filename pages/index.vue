@@ -3,6 +3,7 @@ const { data: posts } = await useAsyncData("latest-posts", () => queryContent("/
 useHead({
   title: "Home | Caio Alves Dev",
 })
+
 </script>
 
 <template>

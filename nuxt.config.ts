@@ -2,7 +2,7 @@
 import { SEO } from "./utils/constants";
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/content", "@nuxtjs/apollo"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/content", "@nuxtjs/apollo","@vueuse/nuxt"],
 
   app: {
     head: {

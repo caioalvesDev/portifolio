@@ -1,5 +1,20 @@
-<script setup>
-const props = defineProps(["posts"]);
+<script setup lang="ts">
+
+interface IPost {
+  title: string;
+  description: string;
+  cover: string;
+  slug: string;
+  _path:string;
+  tags: string[];
+  date: string;
+}
+interface IProps {
+  posts?: IPost[]
+}
+
+const props = defineProps<IProps>();
+
 </script>
 
 <template>
