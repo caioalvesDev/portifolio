@@ -2,8 +2,7 @@
 const { data: posts } = await useAsyncData("latest-posts", () => queryContent("/blog").sort({ date: -1 }).limit(3).find());
 useHead({
   title: "Home | Caio Alves Dev",
-})
-
+});
 </script>
 
 <template>
@@ -16,16 +15,15 @@ useHead({
       <div class="md:w-3/4">
         <h2 class="text-3xl font-bold mt-8">Minha história</h2>
         <p class="text-lg py-2">
-          Sou um engenheiro de software. Sou um programador autodidata que acredita firmemente que você pode realizar qualquer coisa nesta
-          vida se se dedicar, arregaçar as mangas e estiver disposto a trabalhar.
+          Como um engenheiro de software e programador autodidata, mantenho a convicção firme de que a dedicação, determinação e disposição
+          para o trabalho são os pilares essenciais para alcançar qualquer objetivo na vida.
         </p>
         <p class="text-lg py-2">
-          Venho desenvolvendo software há mais de 5 anos e uso meu conhecimento, paixão e influência para ajudar outros desenvolvedores a
-          alcançar seus objetivos.
+          Com mais de 5 anos de experiência no desenvolvimento de software, utilizo meu conhecimento, paixão e influência para auxiliar
+          outros desenvolvedores a atingirem seus objetivos.
         </p>
         <p class="text-lg py-2">
-          Na minha vida pessoal, gosto de jogar, ver animes e estudar programação. Já mencionei que gosto de jogar? Além disso, pratico
-          corrida e faço exercícios para tentar ser uma pessoa saudável haha.
+          Na minha vida pessoal, sou apaixonado por jogos (sério, sou fã de carteirinha!), curto acompanhar animes e passo um bom tempo estudando programação - sério mesmo, sou um entusiasta! Ah, e sobre isso de jogar, é uma das minhas coisas favoritas! Além disso, dou umas corridinhas e faço exercícios, sabe, para manter a saúde em dia (pelo menos tento, haha!).
         </p>
       </div>
       <!-- <img src="~/assets/images/danvega-avatar.png" class="w-1/2 md:max-w-sm p-8 mx-auto" /> -->
