@@ -104,7 +104,7 @@ const certificates: ICertificate[] = [
       <p class="text-lg">Aqui estão alguns dos meus Certificados adquiridos 📖.</p>
       <p class="text-lg">Conhecimento nunca é demais haha.</p>
     </div>
-    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-2 gap-x-8 mb-8">
       <div
         v-for="certificate in certificates"
         :key="certificate.id"
