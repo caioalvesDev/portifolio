@@ -18,7 +18,8 @@ const heading = computed(() => {
   if ((error.value?.message).toLowerCase() === "maintenance") return "Maintenance";
   if ((error.value?.message).toLowerCase() === "page not found") return "Página não encontrada";
 
-  return error.value?.message;
+  return "Algo deu errado :("
+  // return error.value?.message;
 });
 </script>
 
