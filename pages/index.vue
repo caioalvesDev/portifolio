@@ -29,7 +29,7 @@ useHead({
         </p>
       </div>
       <!-- <img src="~/assets/images/danvega-avatar.png" class="w-1/2 md:max-w-sm p-8 mx-auto" /> -->
-      <AtomsLottiePlayerDot class="w-1/2 p-2 mx-auto" src="https://lottie.host/add50188-1e9a-4cc3-828c-759f685ac633/fAnjpfqVuN.json" />
+      <AtomsLottiePlayerDot class="w-1/2 p-2 mx-auto" src="https://lottie.host/2affe605-8af5-4f85-8f5c-dfdb09b2f3b8/jtJ7OC9UrG.json" />
     </section>
     <section>
       <h2 class="text-3xl font-bold mt-5">Últimas postagens do blog</h2>
