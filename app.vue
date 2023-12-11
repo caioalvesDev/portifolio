@@ -21,4 +21,28 @@
   opacity: 0;
   filter: blur(1rem);
 }
+
+
+:is(body, div) {
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #000000;
+  --sb-size: 14px;
+
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+:is(body, div)::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+:is(body, div)::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 1px;
+}
+
+:is(body, div)::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 1px;
+  border: 2px solid var(--sb-track-color);
+}
 </style>
