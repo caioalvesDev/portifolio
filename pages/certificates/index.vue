@@ -38,41 +38,55 @@ const certificates: ICertificate[] = [
   },
   {
     id: 5,
+    description: "Aprenda React JS na pratica a criar aplicações completas do extremo ZERO ao avançado!",
+    url: "https://www.udemy.com/certificate/UC-75bed0ef-139b-482b-a76a-ad3c1741c824/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
+    name: "React Js do zero ao avançado na pratica",
+    totalHour: "23h 32m"
+  },
+  {
+    id: 6,
+    description: "Aprenda a criar qualquer sistema web, com Node.js e Javascript na prática, domine as principais tecnologias do mercado.",
+    url: "https://www.udemy.com/certificate/UC-2ae29f69-c78d-4385-a837-031538c1e187/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
+    name: "Formação Node.js",
+    totalHour: "49h 57m"
+  },
+  {
+    id: 7,
     description: "Criando aplicações utilizando TailwindCSS",
     url: "https://alunos.b7web.com.br/media/certificates/certificado_5227474.jpg",
     name: "TailwindCSS",
     totalHour: "20h"
   },
   {
-    id: 6,
+    id: 8,
     description: "Desenvolva utilizando Angular 9",
     url: "https://alunos.b7web.com.br/media/certificates/certificado_5378346.jpg",
     name: "Angular 9",
     totalHour: "20h"
   },
   {
-    id: 7,
+    id: 9,
     description: "Learn how to build robust, modern websites with Nuxt from scratch. Or improve your website performance, code quality, while making better use of the framework.",
     url: "https://masteringnuxt.com/certificates/9ad2f2e2-ddd9-4019-a19d-9e6e4b8fab85?signature=ec5b321241a6592ccc2e46389a1ebb09247800bdd216acf0cd27222a03258052",
     name: "Mastering Nuxt Course",
     totalHour: "8h 33m"
   },
   {
-    id: 8,
+    id: 10,
     description: "Crie aplicações reativas com Vuejs",
     url: "https://alunos.b7web.com.br/media/certificates/certificado_9569071.jpg",
     name: "Vuejs",
     totalHour: "25h"
   },
   {
-    id: 9,
+    id: 11,
     description: "Ambiente Local com Docker",
     url: "https://www.upinside.com.br/certificados/6701570202310",
     name: "Ambiente Local com Docker",
     totalHour: "10h"
   },
   {
-    id: 10,
+    id: 12,
     description: "Laravel Express - Desenvolva dashboards inteligentes com Laravel, Livewire e OpenAi.",
     url: "https://academy.beerandcode.com.br/certificates/xOMj6d",
     name: "Laravel Express",
