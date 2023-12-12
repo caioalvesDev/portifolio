@@ -11,7 +11,7 @@ useHead({
       <h1 class="text-5xl font-bold mt-20">👋🏻 Olá, eu me chamo Caio Alves!</h1>
       <p class="text-base text-gray-900 p-2 italic">Software Developer</p>
     </section>
-    <section class="flex flex-col md:flex-row">
+    <section class="flex flex-col md:flex-row mb-14">
       <div class="md:w-3/4">
         <h2 class="text-3xl font-bold mt-8">Minha história</h2>
         <p class="text-lg py-2">
